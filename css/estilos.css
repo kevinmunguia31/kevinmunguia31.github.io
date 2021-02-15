@@ -315,4 +315,9 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }*/
 		flex-wrap: wrap;
 		padding: 20px 0;
 	}
+
+	.masiva img {
+		width: 400px;
+		height: 200px;
+	}
 }
