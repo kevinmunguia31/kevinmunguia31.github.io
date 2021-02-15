@@ -194,7 +194,7 @@ footer .contacto .titulo {
 	text-align: center;
 }
 
-footer .contacto .formulario {
+/*footer .contacto .formulario {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -244,7 +244,7 @@ footer .contacto .formulario .boton {
 
 footer .contacto .formulario .boton:hover {
 	background: #387bea
-}
+}*/
 
 footer .redes-sociales {
 	background: #1e2b38;
@@ -266,11 +266,31 @@ footer .redes-sociales a {
 	margin: 0 20px;
 }
 
-footer .redes-sociales .twitter:hover { background: #1da1f2; }
 footer .redes-sociales .facebook:hover { background: #3b5998; }
+footer .redes-sociales .watsapp:hover { background: #0ba156; }
+footer .redes-sociales .correo:hover { background: #cd201f; }
+/*footer .redes-sociales .twitter:hover { background: #1da1f2; }
 footer .redes-sociales .Youtube:hover { background: #cd201f; }
 footer .redes-sociales .github:hover { background: #666666; }
-footer .redes-sociales .instagram:hover { background: #3f729b; }
+footer .redes-sociales .instagram:hover { background: #3f729b; }*/
+
+.watsapp:hover .toltip{
+	visibility: visible;
+}
+.watsapp .toltip {
+	visibility: hidden;
+	font-size: 15px;
+	width: 120px;
+	background-color: orange;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+  }
 
 /* ---- ---- MEDIA QUERIES ---- ----*/
 @media screen and (max-width: 800px) {
