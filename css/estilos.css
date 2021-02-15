@@ -251,11 +251,11 @@ footer .redes-sociales {
 	padding: 1px;
 }
 
-/*footer .redes-sociales .contenedor {
+footer .redes-sociales .contenedor {
 	display: flex;
 	justify-content: center;
-}*/
-/*footer .redes-sociales a {
+}
+footer .redes-sociales a {
 	color: #fff;
 	text-align: center;
 	width: 100px;
@@ -264,14 +264,14 @@ footer .redes-sociales {
 	border-radius: 3px;
 	font-size: 30px;
 	margin: 0 20px;
-}*/
-/*
+}
+
 footer .redes-sociales .twitter:hover { background: #1da1f2; }
 footer .redes-sociales .facebook:hover { background: #3b5998; }
 footer .redes-sociales .Youtube:hover { background: #cd201f; }
 footer .redes-sociales .github:hover { background: #666666; }
 footer .redes-sociales .instagram:hover { background: #3f729b; }
-*/
+
 /* ---- ---- MEDIA QUERIES ---- ----*/
 @media screen and (max-width: 800px) {
 	/*header .menu {
@@ -288,7 +288,7 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }
 	}
 	
 	header .contenedor-texto .texto .profesion {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	
 	footer .redes-sociales .contenedor {
