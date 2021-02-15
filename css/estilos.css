@@ -260,7 +260,7 @@ footer .redes-sociales a {
 	text-align: center;
 	width: 100px;
 	display: block;
-	padding: 15px 0;
+	padding: 12px 0;
 	border-radius: 3px;
 	font-size: 30px;
 	margin: 0 20px;
@@ -268,7 +268,7 @@ footer .redes-sociales a {
 
 footer .redes-sociales .facebook:hover { background: #3b5998; }
 footer .redes-sociales .watsapp:hover { background: #0ba156; }
-footer .redes-sociales .correo:hover { background: #cd201f; }
+footer .redes-sociales .iglesia:hover { background: #cd201f; }
 /*footer .redes-sociales .twitter:hover { background: #1da1f2; }
 footer .redes-sociales .Youtube:hover { background: #cd201f; }
 footer .redes-sociales .github:hover { background: #666666; }
@@ -317,7 +317,7 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }*/
 	}
 
 	.masiva img {
-		width: 400px;
+		width: 300px;
 		height: 200px;
 	}
 }
