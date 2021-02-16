@@ -260,7 +260,7 @@ footer .redes-sociales a {
 	text-align: center;
 	width: 100px;
 	display: block;
-	padding: 12px 0;
+	padding: 10px 0;
 	border-radius: 3px;
 	font-size: 30px;
 	margin: 0 20px;
@@ -274,7 +274,7 @@ footer .redes-sociales .Youtube:hover { background: #cd201f; }
 footer .redes-sociales .github:hover { background: #666666; }
 footer .redes-sociales .instagram:hover { background: #3f729b; }*/
 
-.watsapp:hover .toltip{
+/*.watsapp:hover .toltip{
 	visibility: visible;
 }
 .watsapp .toltip {
@@ -287,10 +287,32 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }*/
 	border-radius: 6px;
 	padding: 5px 0;
   
-	/* Position the tooltip */
+	/* Position the tooltip 
 	position: absolute;
 	z-index: 1;
   }
+*/
+#app-messenger, #app-whatsapp{
+	position: fixed;
+	right: 24px;
+	bottom: 25px;
+	width: 60px;
+	z-index: 1000;
+	display: block;
+}
+#app-whatsapp{
+	bottom: 95px;
+	display: block;
+}
+#app-messenger i, #app-whatsapp i{
+	font-size: 63px;
+}
+#app-whatsapp i{
+	color: #1ebea5;
+}
+#app-messenger i{
+	color: #0084ff;	
+}
 
 /* ---- ---- MEDIA QUERIES ---- ----*/
 @media screen and (max-width: 800px) {

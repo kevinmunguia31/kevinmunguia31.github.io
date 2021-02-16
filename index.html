@@ -194,19 +194,49 @@
 
 			<div class="contenedor">
 				<!--<a href="https://twitter.com/KevinMu01561469" class="twitter"><i class="fa fa-twitter"></i></a>-->
-				<a href="https://www.facebook.com/RadioEbenezer99.7FM" class="facebook" target="_blanck"><i class="fa fa-facebook"></i></a>
-				<a href="#" class="watsapp" >
+				<a href="https://www.facebook.com/RadioEbenezer99.7FM" class="facebook" target="_blanck"><img src="img/logo.png" width="50px" height="50px" alt=""></a>
+				<!--<a href="#" class="watsapp" >
 					<i class="fab fa-whatsapp"></i>
 					<p class="toltip">(+505) 7792-0400</p>
-				</a>
+				</a>-->
 				<a href="https://www.facebook.com/fckelviejo20/" class="iglesia" target="_blanck"><img src="img/fck.png" width="50px" height="40px"></a>
 				<!--<a href="https://www.youtube.com/channel/UCRoDzxn8qApwnlflyss9Gkw?view_as=subscriber" class="Youtube"><i class="fa fa-youtube-play"></i></a>-->
 				<!--<a href="#" class="github"><i class="fa fa-github"></i></a>-->
 				<!--<a href="https://www.instagram.com/munguia.kevin/" class="instagram"><i class="fa fa-instagram"></i></a>-->
 			</div>
+			<a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=50585535725&amp;text=Dios te bendiga!&nbsp;enque&nbsp;podemos&nbsp;ayudarte?">
+				<i class="fab fa-whatsapp"></i>
+		    </a>
+		    <a id="app-messenger" target="_blanck" href="https://m.me/cinemanianic">
+			<i class="fab fa-facebook-messenger"></i>
+			</a>
 			<center><p style="color: aliceblue;">Kevin Munguia © Copyright 2021 - Todos los Derechos Reservados</p></center>
 		</section>
 	</footer>
-
+			<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>
+			  window.fbAsyncInit = function() {
+				FB.init({
+				  xfbml            : true,
+				  version          : 'v9.0'
+				});
+			  };
+	  
+			  (function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+	  
+			<!-- Your Chat Plugin code -->
+			<div class="fb-customerchat"
+			  attribution="setup_tool"
+			  page_id="101906118337247"
+		logged_in_greeting="Hola que tal?"
+		logged_out_greeting="Hola que tal?">
+			</div>
 </body>
 </html>
