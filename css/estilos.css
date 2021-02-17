@@ -294,7 +294,7 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }*/
 */
 #app-messenger, #app-whatsapp{
 	position: fixed;
-	right: 24px;
+	right: 0px;
 	bottom: 25px;
 	width: 60px;
 	z-index: 1000;
@@ -338,7 +338,7 @@ footer .redes-sociales .instagram:hover { background: #3f729b; }*/
 		padding: 20px 0;
 	}
 
-	.masiva img {
+	.post {
 		width: 300px;
 		height: 200px;
 	}
