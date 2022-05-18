@@ -19,9 +19,10 @@ body {
 
 /* ---- ---- HEADER ---- ----*/
 header {
-	background: url('../img/1.jpg') #ccc;
+	background: url('../img/bg2.jpg') #ccc;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	max-height: 400px;
 }
 
@@ -98,7 +99,7 @@ audio{
 .main .acerca-de .foto img {
 	vertical-align: top;
 	border-radius: 50%;
-	border: 5px solid rgba(255,255,255,0.2);
+	border: 6px solid red;
 }
 
 .main .acerca-de .texto {
@@ -249,11 +250,13 @@ footer .contacto .formulario .boton:hover {
 footer .redes-sociales {
 	background: #1e2b38;
 	padding: 1px;
+	margin-top: 55px;
 }
 
 footer .redes-sociales .contenedor {
 	display: flex;
 	justify-content: center;
+	
 }
 footer .redes-sociales a {
 	color: #fff;
@@ -264,6 +267,7 @@ footer .redes-sociales a {
 	border-radius: 3px;
 	font-size: 30px;
 	margin: 0 20px;
+	
 }
 
 footer .redes-sociales .facebook:hover { background: #3b5998; }
